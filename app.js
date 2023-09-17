@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 app.post('/register', userController.register);
 
 app.listen(80, () => {
-  console.log('Server is running on http://localhost:800');
+  console.log('Server is running on http://localhost:80');
 });
